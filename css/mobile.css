@@ -1,0 +1,131 @@
+body {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.welcome {
+	box-sizing: border-box;
+	height: 100vh;
+	padding-top: 30px;
+
+	background-image: url("../images/banner-mobile.jpg");
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header-container {
+	height: calc(100vh - 30px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-logo {
+	width: 269px;
+}
+
+.menu-button {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 15px;
+}
+
+.menu-list {
+	display: none;
+}
+
+.welcome-title-container {
+	margin-top: 40px;
+	width: 277px;
+}
+
+.welcome-title {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.headline-group, .main-group-headline {
+	font-size: 16px;
+}
+
+.trend-posts {
+	margin-bottom: 40px;
+}
+
+.trend-post {
+	min-height: 233px;
+	width: 100%;
+	margin-top: 4px;
+	margin-left: 0;
+}
+
+.trend-post:first-child {
+	margin-top: 0;
+}
+
+.post-category {
+	margin-top: 12px;
+}
+
+.news {
+	width: 100%;
+	margin-bottom: 45px;	
+}
+
+.post {
+	border-bottom: 3px solid #eeeeee;
+}
+
+.post-image {
+	width: 100%;
+}
+
+.sidebar {
+	width: 100%;
+	margin-bottom: 45px;
+}
+
+.product {
+	margin-bottom: 25px;
+}
+
+.popup-body {
+	padding: 10px;
+}
+
+.popup-content {
+	max-width: 333px;
+	padding: 30px 25px;
+}
+
+.radio-group-text::before {
+	width: 26px;
+	height: 26px;
+	background-size: 26px;
+}
+
+.popup-close {
+	width: 28px;
+	height: 28px;
+	background-size: 28px;
+	top: -38px;
+}
+
+@media (orientation: landscape) {
+	.trend-post {
+		width: calc(50% - 2px);
+	}
+
+	.trend-post:nth-child(even) {
+		margin-left: 4px;
+	}
+
+	.trend-post:nth-child(2) {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,103 @@
+body {
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.welcome {
+	padding-top: 25px;
+	padding-bottom: 109px;
+
+	background-image: url("../images/banner-bg.jpg");
+}
+
+.container { 
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header-logo {
+	width: 180px;
+}
+
+.menu-button {
+	display: none;
+}
+
+.welcome-title-container {
+	margin-top: 101px;
+	width: 679px;
+}
+
+.welcome-title {
+	font-size: 45px;
+	line-height: 75px;
+}
+
+.headline-group {
+	font-size: 14px;
+}
+
+.main-group-headline {
+	font-size: 20px;
+}
+
+.trend-posts {
+	margin-bottom: 60px;
+}
+
+.trend-post {
+	width: calc(25% - 3px);
+	min-height: 320px;
+}
+
+.page {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 65px;
+}
+
+.news {
+	width: 780px;
+}
+
+.post {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post-image-container {
+	width: calc(381 * 100% / 780);
+	margin-right: 30px;
+}
+
+.product {
+	width: calc((100% / 3) - 42px);
+	margin-left: 63px;
+}
+
+.product:first-child {
+	margin-left: 0;
+}
+
+.popup-body {
+	padding: 25px 15px 15px;
+}
+
+.popup-content {
+	max-width: 392px;
+	padding: 50px 30px 53px;
+}
+
+.radio-group-text::before {
+	width: 18px;
+	height: 18px;
+	background-size: 18px;
+}
+
+.popup-close {
+	width: 19px;
+	height: 19px;
+	background-size: 19px;
+	top: -29px;
+}
