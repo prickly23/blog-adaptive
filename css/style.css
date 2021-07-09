@@ -110,7 +110,7 @@ body {
   position: absolute;
   left: 0;
   top: 8px;
-  text-indent: -9999px; 
+  
 }
 
 .menu-list {
@@ -120,7 +120,7 @@ body {
   padding: 0;
 }
 
-.menu-list-item:nth-child(n + 2) {
+.menu-list-item-indent {
   margin-left: 37px;
 }
 
@@ -382,10 +382,7 @@ body {
 }
 
 .field-label {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
+  display: none;
 }
 
 .field {
@@ -561,7 +558,7 @@ body {
   align-items: center;
 }
 
-.product-prices {}
+
 .product-price {
   display: block;
   color: #0f0d0e;
@@ -738,7 +735,7 @@ body {
   width: 1px; 
 }
 
-.radio-group-text {}
+
 .radio-group-text::before {
   content: "";
   display: inline-block;
