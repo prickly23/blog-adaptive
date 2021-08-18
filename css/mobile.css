@@ -49,7 +49,11 @@ body {
 	line-height: 36px;
 }
 
-.headline-group, .main-group-headline {
+.headline-group {
+	font-size: 16px;
+}
+
+.main-group-headline {
 	font-size: 16px;
 }
 
@@ -118,7 +122,7 @@ body {
 
 @media (orientation: landscape) {
 	.trend-post {
-		width: calc(50% - 2px);
+		width: 318px;
 	}
 
 	.trend-post:nth-child(even) {

@@ -189,6 +189,7 @@ body {
 
 .trend-post-1 {
   background-image: url("../images/trend1.jpg");
+  margin-left: 0;
 }
 
 .trend-post-2 {
@@ -201,10 +202,6 @@ body {
 
 .trend-post-4 {
   background-image: url("../images/trend4.jpg");
-}
-
-.trend-post:first-child {
-  margin-left: 0;
 }
 
 .trend-post::before  {
@@ -353,7 +350,7 @@ body {
   display: block;
 }
 
-.recent-post-preview .card-date {
+.recent-post-preview {
   color: #000000;
   display: block;
   margin-right: 0;
@@ -438,7 +435,7 @@ body {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.subscribe .field {
+.subscribe {
   margin-bottom: 17px;
 }
 
