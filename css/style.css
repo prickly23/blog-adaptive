@@ -141,7 +141,7 @@ body {
 
 .welcome-title {
   text-transform: uppercase;
-  margin-bottom: 15px;
+ 
   margin-top: 0;
 }
 
@@ -308,7 +308,7 @@ body {
 .card-date {
   font-size: 12px;
   color: #888888;
-  margin-right: 12px;
+
   display: inline-block;
 }
 
@@ -435,9 +435,7 @@ body {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.subscribe {
-  margin-bottom: 17px;
-}
+
 
 .subscribe-button {
   width: 100%;

@@ -127,7 +127,7 @@ body {
 
 @media (orientation: landscape) {
 	.trend-post {
-		width: 296px;
+		width: calc(25% - 4px);
 	}
 
 	.trend-post:nth-child(3n + 3) {
